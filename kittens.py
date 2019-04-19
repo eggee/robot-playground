@@ -7,12 +7,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     if args.message == "meow":
-        print "RAWR"
+        print "meow"
     elif args.message == "pet":
         print "purr"
-    elif args.message == "bellyrub":
-        print "IWILLKILLYOU"
-    elif args.message == "food":
+    elif args.message == "bellyrub?":
+        print "I Will Scratch You"
+    elif args.message == "food?":
         print "finally slave"
     else:
         print "meh" 
