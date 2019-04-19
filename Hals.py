@@ -6,14 +6,14 @@ if __name__ == "__main__":
     parser.add_argument('message')
     args = parser.parse_args()
     
-    if args.message == "meow":
-        print "meow"
-    elif args.message == "pet":
-        print "purr"
-    elif args.message == "bellyrub?":
-        print "I Will Scratch You"
+    if args.message == "Hal, what time is it?":
+        print "Hal"
+    elif args.message == "lightspeed":
+        print "lightspeed"
+    elif args.message == "warpspeed":
+        print "We are at warpspeed"
     elif args.message == "food?":
-        print "finally slave"
+        print "Computers don't eat, dummy."
     else:
         print "meh" 
 

@@ -5,19 +5,19 @@ Library         HalsLibrary.py
 #change the values below,
 
 *** Test Cases ***
-Says meow
-    Say to Hal           meow
-    Hal should respond   meow
+Says Hal, what time is it?
+    Say to Hal           "Hal, what time is it?"
+    Hal should respond   Hal
 
-Says purr
-    Say to Hal           pet
-    Hal should respond   purr
+Says lightspeed
+    Say to Hal           lightspeed
+    Hal should respond   lightspeed
 
-Says Scratch You
-    Say to Hal           bellyrub?
-    Hal should respond   I Will Scratch You
+Says warpspeed
+    Say to Hal           warpspeed
+    Hal should respond   We are at warpspeed
 
-Says Finally Slave
+Says Computers don't eat, dummy.
     Say to Hal           food?
-    Hal should respond   finally slave
+    Hal should respond   Computers don't eat, dummy.
 

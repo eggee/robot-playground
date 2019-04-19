@@ -27,8 +27,8 @@ to the expected-response (as provided after the keyword)
 It's sort of an ill-gotten tutorial in that the user wouldn't necessarily know beforehand what options are available to Say/Response.
 The user is required to know to look in the Hals.py file for the acceptable Say and Response options.
 
-Say options:       meow, pet,   bellyrub?,        food?
-Response option:   meow, purr,  I Will Scratch You,    finally slave
+Say options:       Hal, what time is it?, lightspeed,   warpspeed,        food?
+Response option:   Hal, what time is it?, lightspeed,  We are at warpspeed,    Computers don't eat, dummy.
 
 if the Say options matches the expected Response option, the test-case will pass
 if the Say options does not match the expected Response option, test-case will fail
